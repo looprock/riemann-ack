@@ -2,9 +2,9 @@
 
 Riemann-ack is a plugin for riemann that uses redis as a cache for acknowledgements.
 
-It backs to redis so that other, external interfaces (think chatbots, frontends, etc) can easily ack and unack events in riemann. 
+It backs to redis so that other, external interfaces (think chatbots, frontends, etc) can easily ack and unack events in riemann.
 
-Special thanks to @cafreeman who basically did the heavy lifting for creating this. He saved me countless hours of frustration figuring out how to handle streams to get events to and from this plugin. Thanks Chris!
+Special thanks to @cafreeman (https://github.com/cafreeman) who basically did the heavy lifting for creating this. He saved me countless hours of frustration figuring out how to handle streams to get events to and from this plugin. Thanks Chris!
 
 ## Installation
 
